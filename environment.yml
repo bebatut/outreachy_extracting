@@ -1,0 +1,10 @@
+name: outreachy_tracking
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - google-api-python-client
+  - pip:
+    - pygsheets
